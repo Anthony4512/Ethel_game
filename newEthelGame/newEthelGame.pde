@@ -21,9 +21,9 @@ ArrayList <Bug> bugs = new ArrayList<Bug>();
 int numBugs = 30;
 PImage bg;
 
+//created array for keys
 boolean keys[];
 Player player;
-
 
 void setup()
 {
@@ -35,6 +35,7 @@ void setup()
     bugs.add(new Bug());
   }
   
+  // assigned 128 spaces for the boolean array keys
   keys = new boolean[128];
   player = new Player();
   
